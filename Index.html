@@ -18,7 +18,9 @@
 <body>
 
     <header>
-        <i class="fas fa-bars"></i>
+        <button class="toggle">
+            <i class="fas fa-bars"></i>
+        </button>
         <img class="youTube" src="Images/YouTube-logo.png" alt="">
         <input class="busqueda" type="text" placeholder="Buscar">
         <button class="search">
@@ -32,10 +34,15 @@
     </header>
 
     <div class="menu">
-        <i class="fas fa-home"></i><li>Inicio</li>
-        <i class="fas fa-compass"></i><li>Explorar</li>
-        <i class="fab fa-buffer"></i><li>Suscripciones</li>
-        <i class="fas fa-book"></i><li>Biblioteca</li>
+        <nav class="nav">
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><i class="fas fa-home"></i>Inicio</li>
+                <li class="nav-menu-item"><i class="fas fa-compass"></i>Explorar</li>
+                <li class="nav-menu-item"><i class="fab fa-buffer"></i>Suscripciones</li>
+                <li class="nav-menu-item"><i class="fas fa-book"></i>Biblioteca</li>
+                <li class="nav-menu-item"><i class="fas fa-history"></i>Historial</li>
+            </ul>
+        </nav>
     </div>
 
     <section class="topVideos">
